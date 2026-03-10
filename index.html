@@ -74,7 +74,7 @@
 
     /* Project thumbnails */
     .proj-thumb {
-      aspect-ratio: 16 / 10; border-radius: 1rem; overflow: hidden; background: #eef2ff;
+      aspect-ratio: 16 / 10; border-radius: 1rem; overflow: hidden; background: #ffffff;
       display: grid; place-items: center;
     }
 
@@ -218,6 +218,7 @@ I enjoy learning and exploring new technologies and actively use AI tools to imp
       <h4 style="margin-bottom:5px;">Batchelor of Computer Science</h4>
       <p class="text-secondary al"></p>Sant Gadge baba Amaravti University | 70%</p>
       <div style="width:100%; background:var(--bs-secondary-bg); border-radius:10px; height:25px; overflow:hidden;">
+
         <!-- Current year = 2025 → 2 of 3 years = 67% -->
         <div style="width:100%; height:100%; background:#ffc107; text-align:center; color:#000; font-size:14px; line-height:25px;">
           2021 – 2024 (completed)
@@ -233,6 +234,7 @@ I enjoy learning and exploring new technologies and actively use AI tools to imp
       <h4 style="margin-bottom:5px;">HSC</h4>
       <p class="text-secondary al"></p>Sant Gadge baba Amaravti University | 80.50%</p>
       <div style="width:100%; background:var(--bs-secondary-bg); border-radius:10px; height:25px; overflow:hidden;">
+
         <!-- Current year = 2025 → 1 of 2 years = 50% -->
         <div style="width:100%; height:100%; background:#ffc107; text-align:center; color:#000; font-size:14px; line-height:25px;">
          2019 – 2021 (completed)
@@ -545,7 +547,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="col-md-6 col-lg-4 project-card" data-tags="ui,components,bootstrap">
           <div class="card soft-card h-100">
             <div class="proj-thumb">
-              <svg viewBox="0 0 800 500" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <img src="https://i.ibb.co/Hpzj6RrC/x.jpg"  class="img-fluid" alt="Calculator Project">
+              <!-- <svg viewBox="0 0 800 500" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <linearGradient id="g1" x1="0" x2="1">
                     <stop offset="0%" stop-color="#6366f1"/>
@@ -558,15 +561,15 @@ document.addEventListener("DOMContentLoaded", () => {
                   <rect x="80" y="150" width="460" height="40" rx="8"/>
                   <rect x="80" y="210" width="520" height="220" rx="12"/>
                 </g>
-              </svg>
+              </svg> -->
             </div>
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Calculator</h5>
+              <h5 class="card-title"><strong>Calculator</strong></h5>
               <p class="card-text text-secondary">A simple and responsive calculator built using HTML, CSS, and JavaScript.</p>
               <div class="mt-auto d-flex gap-2 flex-wrap">
                 <span class="badge text-bg-light border"><i class="bi bi-Html-fill me-1"></i>Basic Math Operations</span>
                 <span class="badge text-bg-light border"><i class="bi bi-Css me-1"></i>Responsive Layout</span>
-                <span class="badge text-bg-light border"><i class="bi bi-Javascript me-1"></i>Dark/light Theme</span>
+                <span class="badge text-bg-light border"><i class="bi bi-Javascript me-1"></i>Dark & light Theme</span>
               </div>
             </div>
             <div class="card-footer bg-transparent border-0">
@@ -579,7 +582,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="col-md-6 col-lg-4 project-card" data-tags="react,spa,api">
           <div class="card soft-card h-100">
             <div class="proj-thumb">
-              <svg viewBox="0 0 800 500" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <img src="https://i.ibb.co/mrPFVtmb/x.jpg" class="img-fluid" alt="Weather App Project">
+              <!-- <svg viewBox="0 0 800 500" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
                 <defs><linearGradient id="g2" x1="0" x2="1"><stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="#0ea5e9"/></linearGradient></defs>
                 <rect width="800" height="500" fill="url(#g2)"/>
                 <g fill="#ffffff" opacity="0.95">
@@ -587,15 +591,15 @@ document.addEventListener("DOMContentLoaded", () => {
                   <rect x="200" y="90" width="520" height="60" rx="12"/>
                   <rect x="80" y="190" width="640" height="240" rx="12"/>
                 </g>
-              </svg>
+              </svg> -->
             </div>
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Weather App</h5>
+              <h5 class="card-title"><strong>Weather App</strong></h5>
               <p class="card-text text-secondary">A responsive weather application that fetches real-time weather data using the OpenWeatherMap.</p>
               <div class="mt-auto d-flex gap-2 flex-wrap">
                 <span class="badge text-bg-light border">City Based weather Search</span>
                 <span class="badge text-bg-light border">Realtime Data</span>
-                <span class="badge text-bg-light border">Responsive UI</span>
+                <!-- <span class="badge text-bg-light border">Responsive UI</span> -->
               </div>
             </div>
             <div class="card-footer bg-transparent border-0">
@@ -608,7 +612,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="col-md-6 col-lg-4 project-card" data-tags="landing,seo,performance">
           <div class="card soft-card h-100">
             <div class="proj-thumb">
-              <svg viewBox="0 0 800 500" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+              <img src="https://i.ibb.co/6crjw59r/x.jpg"  class="img-fluid" alt="Portfolio Website Project">
+              <!-- <svg viewBox="0 0 800 500" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
                 <defs><linearGradient id="g3" x1="0" x2="1"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#ef4444"/></linearGradient></defs>
                 <rect width="800" height="500" fill="url(#g3)"/>
                 <g fill="#ffffff" opacity="0.95">
@@ -616,19 +621,19 @@ document.addEventListener("DOMContentLoaded", () => {
                   <rect x="80" y="190" width="480" height="40" rx="10"/>
                   <rect x="80" y="250" width="640" height="170" rx="16"/>
                 </g>
-              </svg>
+              </svg> -->
             </div>
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Portfolio website</h5>
+              <h5 class="card-title"><strong>Portfolio Website</strong></h5>
               <p class="card-text text-secondary">Personal responsive site to showcase skills and resume</p>
               <div class="mt-auto d-flex gap-2 flex-wrap">
-                <span class="badge text-bg-light border">clean UI</span>
+                <span class="badge text-bg-light border">Clean UI</span>
                 <span class="badge text-bg-light border">Accessibility</span>
                 <span class="badge text-bg-light border">Responsive</span>
               </div>
             </div>
             <div class="card-footer bg-transparent border-0">
-              <a href="#" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#projectModal" data-title="SaaS Landing Page" data-desc="Personal responsive site to showcase skills and resume" data-stack="HTML, CSS, JavaScript" data-link="https://darshanwahurwagh.github.io/Responsive_Portfolio/">Open Project</a>
+              <a href="#" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#projectModal" data-title="Portfolio Website" data-desc="Personal responsive site to showcase skills and resume" data-stack="HTML, CSS, JavaScript" data-link="https://darshanwahurwagh.github.io/Responsive_Portfolio/">Open Project</a>
             </div>
           </div>
         </div>
@@ -681,20 +686,20 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         <div class="col-lg-6">
           <div class="card soft-card p-4">
-            <form id="contactForm" novalidate>
+            <form action="https://formspree.io/f/mlgpjjpb" method="POST" id="contactForm" novalidate>
               <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" required>
+                <input type="text" class="form-control" id="name" name="name" required autocomplete="off">
                 <div class="invalid-feedback">Please enter your name.</div>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required>
+                <input type="email" class="form-control" id="email" name="email" autocomplete="off">
                 <div class="invalid-feedback">Please enter your valid email.</div>
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="4" required></textarea>
+                <textarea class="form-control" id="message" rows="4" name="message" required></textarea>
                 <div class="invalid-feedback">Please write a short message.</div>
               </div>
               <div class="d-flex align-items-center gap-2">
@@ -802,6 +807,8 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     searchInput.addEventListener('input', filterProjects);
 
+
+
     // Modal details population
     const projectModal = document.getElementById('projectModal');
     projectModal.addEventListener('show.bs.modal', event => {
@@ -814,21 +821,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Bootstrap form validation + fake submit
-    (function () {
-      const form = document.getElementById('contactForm');
-      const status = document.getElementById('formStatus');
-      form.addEventListener('submit', function (event) {
-        event.preventDefault();
-        form.classList.add('was-validated');
-        if (!form.checkValidity()) return;
-        status.textContent = 'Sending...';
-        setTimeout(() => {
-          status.textContent = 'Thanks! Your message was sent successfully.';
-          form.reset();
-          form.classList.remove('was-validated');
-        }, 800);
-      }, false);
-    })();
+
+
+    // (function () {
+    //   const form = document.getElementById('contactForm');
+    //   const status = document.getElementById('formStatus');
+    //   form.addEventListener('submit', function (event) {
+    //     event.preventDefault();
+    //     form.classList.add('was-validated');
+    //     if (!form.checkValidity()) return;
+    //     status.textContent = 'Sending...';
+    //     setTimeout(() => {
+    //       status.textContent = 'Thanks! Your message was sent successfully.';
+    //       form.reset();
+    //       form.classList.remove('was-validated');
+    //     }, 800);
+    //   }, false);
+    // })();
+
+
+
 
     // Enable Bootstrap ScrollSpy after content is present
     const dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))
